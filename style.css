@@ -1,0 +1,10 @@
+header {
+    /* background-image: url('assets/cool-background.svg');
+    background-position-x: right;
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    background-image: url('assets/cool-background.png');
+    background-position: center;
+    background-size: cover;
+}
