@@ -10,20 +10,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <style>
-        section {
-            /* margin-top: -60px !important; */
-            background-image: url(assets/wave1.svg);
-            background-position: top;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>Bizperanto 2.0</title>
 </head>
 
 <body onload="typeWriter();">
-    <header class="bg-primary">
+    <header class="bg-primary mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-12">
@@ -41,25 +33,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12 mb-4">
-                    <div class="lg-mx-5">
+                    <div class="mx-5">
                         <div class="card shadow rounded-0 mb-4">
-                            <div class="card-header text-primary bg-white rounded-0 py-3 px-4">
-                                <span class="text-uppercase py-4">
-                                    <strong>🔒 Login</strong>
-                                </span>
+                            <div class="card-header bg-primary text-white rounded-0 py-3 px-4">
+                                <span class="text-uppercase py-4">Login</span>
                             </div>
                             <div class="card-body">
                                 <form>
                                     <div class="form-group">
-                                        <label for="">Email address</label>
+                                        <label class="text-primary" for="">Email address</label>
                                         <input type="email"
-                                            class="form-control shadow-none border-dark border-left-0 border-top-0 border-right-0 rounded-0"
+                                            class="form-control shadow-none border-primary border-left-0 border-top-0 border-right-0 rounded-0"
                                             id="" aria-describedby="emailHelp">
+                                        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email
+                                            with anyone
+                                            else.</small> -->
                                     </div>
                                     <div class="form-group">
-                                        <label for="">Password</label>
+                                        <label class="text-primary" for="">Password</label>
                                         <input type="password"
-                                            class="form-control shadow-none border-dark border-left-0 border-top-0 border-right-0 rounded-0"
+                                            class="form-control shadow-none border-primary border-left-0 border-top-0 border-right-0 rounded-0"
                                             id="">
                                     </div>
                                     <div class="form-group form-check mb-0">
@@ -68,14 +61,12 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="card-footer bg-white p-0">
+                            <div class="card-footer p-0">
                                 <button type="submit"
-                                    class="btn btn-block text-primary text-uppercase text-left shadow-none rounded-0 py-3 px-4">
-                                    <strong>📩 Submit</strong>
-                                </button>
+                                    class="btn btn-block btn-primary text-uppercase text-left shadow-none rounded-0 py-3 px-4">Submit</button>
                             </div>
                         </div>
-                        <div class="card shadow rounded-0 px-4">
+                        <div class="">
                             <a class="card-link" href="">Forgot your password?</a>
                         </div>
                     </div>
@@ -83,7 +74,7 @@
                 <div class="col-lg-6 col-12 mb-4">
                     <div class="card shadow mb-4 rounded-0">
                         <div class="card-body">
-                            <p class="card-text text-justify my-4 px-4">Bizperanto platform connects all of your order
+                            <p class="card-text text-justify my-3 px-4">Bizperanto platform connects all of your order
                                 sources (Field Reps, Web Sites, EDI Marketplaces) to their targets (ERP systems,
                                 warehouse systems, marketplaces).</p>
                         </div>
@@ -99,7 +90,7 @@
             </div>
         </div>
     </section>
-    <footer class="fixed-bottom bg-white">
+    <footer class="bg-primary fixed-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -154,7 +145,7 @@
                         </a>
                         <a class="card-link text-white" href="https://www.reddit.com/user/Anupam_m"></a>
                     </p> -->
-                    <p class="text-center text-primary my-3">2021 © BIZPERANTO</p>
+                    <p class="text-center text-white my-3">2021 © BIZPERANTO</p>
                 </div>
             </div>
         </div>
